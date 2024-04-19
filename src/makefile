@@ -4,8 +4,7 @@ DIR_SOURCES = ../src
 
 CC = g++ -std=c++11
 
-CFLAGS = -I$(DIR_SOURCES) -I/opt/homebrew/include/SDL2 # Change this to your SDL2 include path.
-# On linux usually -I/usr/local/include/SDL2
+CFLAGS = -I$(DIR_SOURCES) -I/usr/local/include/SDL2
 # On macOS with Homebrew, it is -I/opt/homebrew/include/SDL2
 LIBS = -lm -lSDL2 -lSDL2_image
 
